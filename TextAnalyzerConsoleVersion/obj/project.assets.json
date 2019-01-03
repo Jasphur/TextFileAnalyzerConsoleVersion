@@ -694,11 +694,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Projects\\Grappen\\TextAnalyzerConsoleVersionSolution\\TextAnalyzerConsoleVersion\\TextAnalyzerConsoleVersion.csproj",
+      "projectUniqueName": "C:\\Projects\\Grappen\\TextFileAnalyzerConsoleVersion\\TextAnalyzerConsoleVersion\\TextAnalyzerConsoleVersion.csproj",
       "projectName": "TextAnalyzerConsoleVersion",
-      "projectPath": "C:\\Projects\\Grappen\\TextAnalyzerConsoleVersionSolution\\TextAnalyzerConsoleVersion\\TextAnalyzerConsoleVersion.csproj",
+      "projectPath": "C:\\Projects\\Grappen\\TextFileAnalyzerConsoleVersion\\TextAnalyzerConsoleVersion\\TextAnalyzerConsoleVersion.csproj",
       "packagesPath": "C:\\Users\\Jasper\\.nuget\\packages\\",
-      "outputPath": "C:\\Projects\\Grappen\\TextAnalyzerConsoleVersionSolution\\TextAnalyzerConsoleVersion\\obj\\",
+      "outputPath": "C:\\Projects\\Grappen\\TextFileAnalyzerConsoleVersion\\TextAnalyzerConsoleVersion\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
