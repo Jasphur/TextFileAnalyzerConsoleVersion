@@ -11,9 +11,9 @@ namespace TextAnalyzerConsoleVersion
             Console.WriteLine("Enter the complete path of the file you would like to analyze, including the file name: ");
             var UserFilePath = Console.ReadLine();
 
-            var UserFile = new Reader();
+            var UserFile = new BasicTextAnalyzer();
 
-            // Displaying analyzed results
+            // Displaying basic analyzing results
             UserFile.UserFileReader(UserFilePath);
 
             Console.WriteLine();

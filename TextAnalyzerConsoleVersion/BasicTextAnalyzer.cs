@@ -5,7 +5,7 @@ using System.Text;
 
 namespace TextAnalyzerConsoleVersion
 {
-    class Reader
+    class BasicTextAnalyzer
     {
         int charCount = 0;
         int whiteSpaceCount = 0;
@@ -15,7 +15,6 @@ namespace TextAnalyzerConsoleVersion
 
         public void UserFileReader(string UserFilePath)
         {
-
             try
             {
                 using (StreamReader sr = new StreamReader(UserFilePath))
@@ -39,6 +38,7 @@ namespace TextAnalyzerConsoleVersion
                             }
                         }
                     }
+                    // returning basic anaylazing results
                     Console.WriteLine("");
                     Console.WriteLine("The number of characters used: " + charCount);
                     Console.WriteLine("The number of characters used without space: " + (charCount - whiteSpaceCount));
