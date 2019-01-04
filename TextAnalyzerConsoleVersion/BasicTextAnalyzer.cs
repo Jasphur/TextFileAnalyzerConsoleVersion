@@ -7,9 +7,9 @@ namespace TextAnalyzerConsoleVersion
 {
     class BasicTextAnalyzer
     {
-        int charCount = 0;
-        int whiteSpaceCount = 0;
-        int wordCount = 0;
+        int charCount;
+        int whiteSpaceCount;
+        int wordCount;
         string Separators = ",. ?!";
         string line;
 
